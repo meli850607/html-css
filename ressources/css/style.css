@@ -49,6 +49,9 @@ header{
   color: white;
 }
 /*---------------------------LOGO--------------------*/
+img{
+  margin-top: 30px;
+}
 .LOGO{
   height: 100px;
   float: left;
