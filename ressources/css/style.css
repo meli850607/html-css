@@ -20,8 +20,8 @@ section{
 h2{
   text-align: center;
   font-size: 180%;
-  word-spacing:2px;
-  letter-spacing: 5px;
+  word-spacing:10px;
+  letter-spacing: 1px;
   margin-bottom: 30px;
 }
 h2::after{
@@ -81,12 +81,12 @@ img{
 .logo{
   height: 100px;
   float: left;
-  margin-top:30px;
+  margin-top:20px;
 }
 .main-nav{
-  float: right;
   list-style: none;
-  margin-top: 30px;
+  float: right;
+  margin-top: 20px;
 }
 .main-nav li{
   display: inline-block;
@@ -128,7 +128,6 @@ img{
 }
 .photo{
   width: auto;
-  margin: 0;
   overflow: hidden;
   background-color: black;
 }
