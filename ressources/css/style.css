@@ -6,6 +6,7 @@ html{
   font-size: 20px;                                /* taille de la police */
   color: #555;                                    /* couleur de la police */
   text-rendering: optimizeLegibility;             /*  /// Voir PDF */
+  text-align: center;
 }
 header{
 
@@ -99,7 +100,7 @@ h2::before{
 .ion-android-star {
   font-size: 45px;
   color: orange;
-  margin-left: 40px;
+
 }
 h3{
   text-align: center;
@@ -110,17 +111,14 @@ p{
 .ion-ios-pulse-strong {
   font-size: 45px;
   color: brown;
-  margin-left: 50px
 }
 .ion-ios-heart {
   font-size: 45px;
   color: red;
-  margin-left: 70px;
 }
 .ion-ios-cog {
   font-size: 45px;
   color: black;
-  margin-left: 90px;
 }
 .deco{
   text-align: center;
