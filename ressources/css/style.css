@@ -177,7 +177,7 @@ p{
 }
 
 footer{
-  margin-top: 100px;
+  margin-top: 1000px;
 }
 /*---------mobile----------*/
 
@@ -216,6 +216,44 @@ footer{
 
 .btn-a img{
   height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.nom-du-centre{
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.ion-location{
+  margin-right: 5px;
+  font-size: 30px;
+  text-align: left;
+  color: red;
+}
+.ion-ios-telephone{
+  margin-right: 5px;
+  font-size: 30px;
+  text-align: left;
+  color: red;
+}
+.ion-ios-email{
+  margin-right: 5px;
+  font-size: 30px;
+  text-align: left;
+  color: red;
+}
+.rue{
+  text-align: left;
+}
+.num{
+  text-align: left;
+}
+.mail{
+  text-align: left;
+}
+.img{
+  height: 300px;
   width: auto;
   margin-right: 10px;
 }
