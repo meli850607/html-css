@@ -8,6 +8,7 @@ html{
   text-rendering: optimizeLegibility;             /*  /// Voir PDF */
   text-align: center;
 }
+
 header{
 
   background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpeg); /* Ajout background et filtre */
@@ -15,16 +16,20 @@ header{
   background-position: center;
   height: 100vh;
 }
+
 section{
   padding:85px 0;
 }
+
 h2{
   text-align: center;
   font-size: 180%;
   word-spacing:10px;
   letter-spacing: 1px;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
+
 h2::after{
   display: block;
   height: 2px;
@@ -34,17 +39,21 @@ h2::after{
   margin-top: 15px;
   content:""
 }
+
 h2::before{
   content: ""
 }
+
 .long-copy{
   line-height: 145%;
   margin-left:5%;
 }
+
 .row {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .manga-text-box{
   position:absolute;  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
   top:50%;
@@ -53,6 +62,7 @@ h2::before{
   width: 1140px;
 }
 /*---------------------------boutons-----------------------*/
+
 .btn{
   padding: 10px 30px;
   border:1px solid #fff;
@@ -63,10 +73,12 @@ h2::before{
 .btn:hover{
   border:5px solid pink;
 }
+
 .btn-full{
   background-color: pink;
   color: #fff;
 }
+
 .btn-ghost{
   color: pink;
 }
@@ -82,74 +94,128 @@ h2::before{
   float: left;
   margin-top:20px;
 }
+
 .main-nav{
   list-style: none;
   float: right;
   margin-top: 20px;
 }
+
 .main-nav li{
   display: inline-block;
   margin-left: 40px;
   text-transform: uppercase;
 }
+
 .main-nav li a{
   text-decoration: none;
   color:#fff;
   font-size: 90%;
 }
+
 .ion-android-star {
   font-size: 45px;
   color: orange;
-
 }
+
 h3{
   text-align: center;
 }
+
 p{
   text-align: center;
 }
+
 .ion-ios-pulse-strong {
   font-size: 45px;
   color: brown;
 }
+
 .ion-ios-heart {
   font-size: 45px;
   color: red;
 }
+
 .ion-ios-cog {
   font-size: 45px;
   color: black;
 }
+
 .deco{
   text-align: center;
 }
+
 .range-photo{
   list-style: none;
   width: 100%;
 }
+
 .range-photo li{
   display: block;
   float: left;
   width: 25%;
   margin-bottom: 50px;
 }
+
 .photo{
   width: auto;
   overflow: hidden;
   background-color: black;
 }
+
 .photo img{
   opacity: 0.4;
   width: 100%;
   height: auto;
   transform: scale(1.5);
   transition: transform 2s,opacity 2s;
-
 }
+
 .photo img:hover{
   opacity: 1;
   transform: scale(1);
 }
+
 footer{
-  margin-top: 400px;
+  margin-top: 100px;
+}
+/*---------mobile----------*/
+
+.col-mobile{
+  margin-top: 30px;
+}
+
+.col-mobile:first-child{
+  text-align: right;
+  padding-right: 3%;
+}
+
+.col-mobile:last-child{
+  padding-left: 3%;
+}
+
+.Iphone{
+  width: 40%;
+}
+
+.service-mobile div{
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  margin-right: 25px;
+  font-size: 150%;
+}
+
+.service-mobile{
+  margin-bottom: 50px;
+}
+
+.btn-a img{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
