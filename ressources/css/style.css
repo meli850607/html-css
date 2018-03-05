@@ -220,6 +220,7 @@ footer{
   width: auto;
   margin-right: 10px;
 }
+
 .nom-du-centre{
   text-transform: uppercase;
   margin-top: 20px;
@@ -227,6 +228,7 @@ footer{
   text-align: left;
   margin-left: 35px;
 }
+
 .ion-location{
   margin-right: 10px;
   font-size: 30px;
@@ -234,6 +236,7 @@ footer{
   color: red;
   margin-left: 20px;
 }
+
 .ion-ios-telephone{
   margin-right: 10px;
   font-size: 30px;
@@ -241,6 +244,7 @@ footer{
   color: red;
   margin-left: 20px;
 }
+
 .ion-ios-email{
   margin-right: 10px;
   font-size: 30px;
@@ -248,23 +252,37 @@ footer{
   color: red;
   margin-left: 20px;
 }
+
 .rue{
   text-align: left;
   margin-left: 25px;
 }
+
 .num{
   text-align: left;
   margin-left: 20px;
 }
+
 .mail{
   text-align: left;
   margin-left: 20px;
-
 }
+
 .img{
   height: 250px;
   width: auto;
+  margin: 0 auto;
 }
 a{
   color: red;
+}
+.icone-small{
+  color: orange;
+  margin-right: 10px;
+  font-size: 120%;
+}
+.city{
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
