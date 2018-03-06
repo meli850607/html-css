@@ -314,3 +314,47 @@ cite img{
   height: 45px;
   border-radius: 50%;
 }
+
+.tableau-prix{
+  background-color: #f4f4f4;
+}
+
+.box-prix{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 2px #eee;
+  text-align: left;
+}
+
+.box-prix div{
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+
+.box-prix div:first-child{
+  background-color: grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-prix div:last-child{
+  text-align: center;
+}
+
+.box-prix ul{
+  list-style: none;
+}
+
+.price{
+  font-size: 300%;
+  color: orange;
+  font-weight: 100;
+}
+
+.price span{
+  font-size: 70%;
+}
+
+.price-month{
+  font-size: 80%;
+}
