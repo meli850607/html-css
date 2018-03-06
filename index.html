@@ -269,6 +269,7 @@
 
             </section>
             <!--fin tableau prix-->
+
             <!--correction insert centre-->
             <!--<section class="city">
               <div class="row">
@@ -336,6 +337,96 @@
               </div>
             </section>
             <!--fin avis clients-->
+            <!--début formulaire-->
+
+            <section>
+              <div class="row">
+                <h2>Vous avez des questions? Nous avons des réponses.</h2>
+              </div>
+              <div class="row">
+                <form class="col-md-12">
+                  Nom: <input type="text" name="nom"><br><br>
+                  email: <input type="text" name="email"><br><br>
+                  Qui souhaitez-vous contacter: <select name="services">
+                    <option value="services-clients">Services Clients</option>
+                    <option value="direction">Direction</option>
+                    <option value="secretariat">secrétariat</option>
+                  </select><br><br>
+                  Souhaitez-vous recevoir notre newsletter?
+                  <input type="checkbox" name="abonnement" value="oui"> oui, je m'abonne<br><br>
+                  Rédigez votre question:<br>
+                    <textarea name="message" rows="3" cols="30">
+                    </textarea>
+                    <br><br>
+                  <input type="submit" class="bouton">
+                </form>
+             </div>
+
+
+           </section>
+            <!--fin formulaire-->
+            <!--correction formulaire-->
+            <section>
+              <div class="row">
+                <h2>Vous avez des questions? Nous avons des réponses.</h2>
+              </div>
+              <div class="row">
+                <form method="post" action="#" class="contact-form">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label for="name">Nom:</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text"id="name"required/>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-4">
+                        <label for="email">Email:</label>
+                      </div>
+                      <div class="col-md-8">
+                        <input type="email"id="email" required/>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label for="destinataire">quels services?</label>
+                        </div>
+                        <div class="col-md-8">
+                          <select id="destinataire-select">
+                            <option value="">Sélectionnez un service</option>
+                            <option value="client">Service client</option>
+                            <option value="facture" selected>Service facture</option>
+                            <option value="sav">Service SAV</option>
+                            <option value="technique">Service technique</option>
+                          </select>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <label>newsletter:</label>
+                            </div>
+                            <div class="col-md-8">
+                              <input type="checkbox"id="newsletter" checked/>oui, je m'abonne.
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label>rédigez votre question:</label>
+                              </div>
+                              <div class="col-md-8">
+                                <textarea id="message" placeholder="Ecrire votre message"></textarea>
+                              </div>
+                        </div>
+
+                    <div class="row">
+                      <input type="submit" value="Envoyer"/>
+                      <input type="reset" value="Effacer"/>
+                    </div>
+                  </div>
+
+
+                </form>
+              </div>
+            </section>
+            <!--fin correction formulaire-->
+
               <!-- SendinBlue Signup Form HTML Code -->
               <footer>
               <head>
@@ -434,5 +525,22 @@
               <script type='text/javascript' src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1519192276'></script>
               <!-- End : SendinBlue Signup Form HTML Code -->
             </body>
+          </footer>
+          <footer>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="footer-nav">
+                  <li>CGV</li>
+                  <li>Mentions Legales</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="footer-social">
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                </ul>
+              </div>
+
+            </div>
           </footer>
           </html>
