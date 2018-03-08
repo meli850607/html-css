@@ -94,7 +94,24 @@ h2::before{
   float: left;
   margin-top:20px;
 }
+.logo-black{
+  height: 80px;
+  width: auto;
+  float: left;
+  margin: 20px 0;
+}
 
+.logo-black{
+  display: none;
+}
+
+.sticky .logo{
+  display: none;
+}
+
+.sticky .logo-black{
+  display: block;
+}
 .main-nav{
   list-style: none;
   float: right;
@@ -111,6 +128,20 @@ h2::before{
   text-decoration: none;
   color:#fff;
   font-size: 90%;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sticky .main-nav li a{
+  text-decoration: none;
+  color:#555;
+  font-size: 80%;
+  margin-top: 30px;
 }
 
 .ion-android-star {
